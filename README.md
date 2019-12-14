@@ -3,7 +3,7 @@
 
 ```php
 <?php
-use IT\Technology\ORM\Model;
+use ITTech\ORM\Model;
 
 class User extends Model
 {
@@ -18,7 +18,7 @@ class User extends Model
 
 ```php
 <?php
-use IT\Technology\ORM\Connect;
+use ITTech\ORM\Connect;
 
 $data = [
     "host"     => "localhost",
