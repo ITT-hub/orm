@@ -1,5 +1,5 @@
 {
-  "name": "ittechnology/orm",
+  "name": "it-tech/orm",
   "description": "Database Library",
   "type": "library",
   "license": "MIT",
@@ -16,7 +16,7 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "IT\\Technology\\ORM\\": "src/"
+      "ITTech\\ORM\\": "src/"
     }
   }
 }

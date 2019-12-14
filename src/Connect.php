@@ -3,7 +3,7 @@
  * Created 13.12.2019 20:03
  */
 
-namespace IT\Technology\ORM;
+namespace ITTech\ORM;
 
 use PDO;
 

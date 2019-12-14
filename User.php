@@ -1,9 +1,9 @@
 <?php
 /*
- * Created 13.12.2019 20:29
+ * Created 14.12.2019 10:36
  */
 
-use IT\Technology\ORM\Model;
+use ITTech\ORM\Model;
 
 /**
  * Class User

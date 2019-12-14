@@ -3,7 +3,7 @@
  * Created 11.12.2019 14:34
  */
 
-namespace IT\Technology\ORM;
+namespace ITTech\ORM;
 
 /**
  * Class Model
