@@ -227,6 +227,8 @@ class Model
             array_push($this->modelOBJ, new static($item["id"]));
         }
 
+        $this->connect   = false;
+        self::$whereData = [];
         return $this->modelOBJ;
     }
 

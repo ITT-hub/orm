@@ -1,6 +1,7 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"]."/vendor/autoload.php";
 require_once __DIR__."/User.php";
+require_once __DIR__."/Options.php";
 
 use ITTech\ORM\Connect;
 
@@ -15,4 +16,6 @@ $data = [
 
 Connect::create($data);
 
+var_dump(User::find(1));
+echo "<br>";
 var_dump(User::where("enable", 1)->get());
