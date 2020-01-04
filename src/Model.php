@@ -118,7 +118,7 @@ class Model
 
     /**
      * Создать новую модель
-     * @return bool
+     * @return int | bool
      */
     private function create()
     {
@@ -134,7 +134,12 @@ class Model
 
         $statement = $this->connect->prepare("INSERT INTO ".$this->table." ($param_name_string) VALUES ($param_value_string)");
 
-        return $statement->execute($data);
+        if($statement->execute($data))
+        {
+            return $this->connect->lastInsertId();
+        }
+
+        return false;
     }
 
     /**

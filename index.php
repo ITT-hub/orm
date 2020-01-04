@@ -1,7 +1,6 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"]."/vendor/autoload.php";
 require_once __DIR__."/User.php";
-require_once __DIR__."/Options.php";
 
 use ITTech\ORM\Connect;
 
